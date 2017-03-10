@@ -23,6 +23,7 @@ class FirstTapaSpec extends FlatSpec with Matchers {
   // assertions example
   "Assertions" should "be used" in {
     assert(1 == 1)
-    // assert(Some(2).isEmpty)
+    assert(Some(2).isDefined)
+    //assert(Some(2).isEmpty)
   }
 }
